@@ -1,0 +1,5 @@
+services:
+  exfil:
+    build: .
+    ports:
+      - "8089:8089"
